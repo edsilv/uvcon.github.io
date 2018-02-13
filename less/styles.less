@@ -152,6 +152,25 @@ aside {
                 color: white;
             }
         }
+        &.affix-top {
+            background-color: fade(white, 100%);
+            border-color: fade(@gray-darker, 5%);
+            .navbar-header .navbar-brand {
+                color: @theme-primary;
+                font-size: 14px;
+                &:hover,
+                &:focus {
+                    color: darken(@theme-primary, 10%);
+                }
+            }
+            .nav > li > a,
+            .nav > li > a:focus {
+                color: @gray-darker;
+                &:hover {
+                    color: @theme-primary;
+                }
+            }
+        }
         &.affix {
             background-color: white;
             border-color: fade(@gray-darker, 5%);
