@@ -293,7 +293,7 @@ aside {
     color: white;
   }
   .navbar-default.affix-top {
-    background-color: #ffffff;
+    background-color: #fff;
     border-color: rgba(34, 34, 34, 0.05);
   }
   .navbar-default.affix-top .navbar-header .navbar-brand {
@@ -313,7 +313,7 @@ aside {
     color: #3e114e;
   }
   .navbar-default.affix {
-    background-color: white;
+    background-color: #fff;
     border-color: rgba(34, 34, 34, 0.05);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
